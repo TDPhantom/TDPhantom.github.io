@@ -1,6 +1,22 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@700&display=swap');
+
 body {
-   font-family: 'Text Me One', sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
+   background-color: #f9f4ef;
+   color:#716040;
 }
-  
+h1{
+   font-family:'Cabin Condensed', sans-serif;
+   color: #ee9300c1;
+}
+
+a{
+   text-decoration: none;
+   color:#8c7851
+}
+
+a:hover{
+   background-color:#fffffe;
+}
