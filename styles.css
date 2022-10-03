@@ -25,3 +25,7 @@ a:hover{
 #header{
    background-color:honeydew;
 }
+
+.center {
+   text-align: center;
+}
