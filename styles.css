@@ -4,8 +4,8 @@
 
 body {
    font-family: 'Source Sans Pro', sans-serif;
-   background-color: #f9f4ef;
-   color:#716040;
+   background-color: #ebe1e3ff;
+   color:#252a34;
    margin: 0 auto;
 }
 
@@ -49,4 +49,23 @@ a:hover{
 } 
 #Bar > a:hover{
    background-color: rgba(255, 226, 109, 0.816);
+}
+
+
+input[type=submit] {
+background-color: #e7aa31;
+}
+
+input[type=reset]{
+   background-color: #e7aa31;
+}
+input{
+   padding: 5px;
+}
+input[type=text]{
+     width: 360px;
+     padding: 8px;
+     border: #1a7505 solid;
+     border-radius: 20px;
+     border-radius: 25px;
 }
