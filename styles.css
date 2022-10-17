@@ -48,24 +48,45 @@ a:hover{
    display: inline-block;
 } 
 #Bar > a:hover{
-   background-color: rgba(255, 226, 109, 0.816);
+   background-color: rgba(43, 131, 70, 0.816);
 }
 
 
 input[type=submit] {
-background-color: #e7aa31;
+background-color: #ffffff;
 }
 
 input[type=reset]{
-   background-color: #e7aa31;
+   background-color: #ffffff;
 }
 input{
    padding: 5px;
 }
 input[type=text]{
-     width: 360px;
+     width: 300px;
      padding: 8px;
      border: #1a7505 solid;
      border-radius: 20px;
      border-radius: 25px;
+}
+
+@media screen and (max-width: 480px ) {
+   body{
+      background-color: rgb(27, 58, 58);
+   }
+}
+
+@media screen and (max-width: 480px){
+   #LD_img{
+      width: 100vw;
+      height: auto;
+   }
+   #Bar{
+      text-align: center;
+   }
+   #BadPhoto_img{
+      float: none;
+      display: none;
+   }
+   
 }
