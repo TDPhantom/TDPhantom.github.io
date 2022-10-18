@@ -4,8 +4,8 @@
 
 body {
    font-family: 'Source Sans Pro', sans-serif;
-   background-color:rgb(27, 58, 58);
-   color:#fcfcfc;
+   background-color:rgb(0, 131, 131);
+   color:#def4e4;
    margin: 0 auto;
 }
 
@@ -16,21 +16,21 @@ main{
 
 h1{
    font-family:'Cabin Condensed', sans-serif;
-   color: #420361c1;
+   color: #069a21c4;
    text-align: center;
 }
 
 a{
    text-decoration: none;
-   color:#5d518c
+   color:#f6f8f6
 }
 
 a:hover{
-   background-color:#000000;
+   background-color:#ffffff;
 }
 
 #header{
-   background-color:honeydew;
+   background-color: honeydew;
 }
 
 .center {
@@ -38,17 +38,17 @@ a:hover{
 }
 
 #Bar{
-   background-color:rgb(255, 255, 255);
+   background-color:rgb(9, 164, 211);
    
 }
 
 #Bar > a{
-   color:rgb(0, 0, 0);
+   color:rgb(255, 255, 255);
    padding: 8px;
    display: inline-block;
 } 
 #Bar > a:hover{
-   background-color: rgba(43, 131, 70, 0.816);
+   background-color: rgba(44, 166, 147, 0.968);
 }
 
 
@@ -72,7 +72,7 @@ input[type=text]{
 
 @media screen and (max-width: 480px ) {
    body{
-      background-color: rgb(27, 58, 58);
+      background-color: rgb(4, 171, 171);
    }
 }
 
