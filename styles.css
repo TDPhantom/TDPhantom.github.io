@@ -30,7 +30,7 @@ a:hover{
 }
 
 #header{
-   background-color: #16161a;
+   background-color: #000000;
 }
 
 .center {
@@ -38,7 +38,7 @@ a:hover{
 }
 
 #Bar{
-   background-color:#232323;
+   background-color:#000000;
    position: sticky;
    top:0;
    
@@ -58,11 +58,18 @@ input[type=submit] {
 background-color: #fffffe;
 border-radius: 40%;
 border-radius: auto;
+padding: 15px;
+width: 100px;
+color: #1a7505;
 }
 
 input[type=reset]{
    background-color: #fffffe;
    border-radius: 40%;
+   border-radius: auto;
+   padding: 15px;
+   width: 100px;
+   color: #1a7505;
 }
 input{
    padding: 5px;
