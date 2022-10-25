@@ -96,9 +96,9 @@ input[type=text]{
    #Bar{
       text-align: center;
    }
-   #BadPhoto_img{
-      float: none;
-      display: none;
+   #BadPhoto2_img{
+   border-radius: 40%;
+      
    }
    
 }
